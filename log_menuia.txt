@@ -1,0 +1,948 @@
+[deixe esse arquivo inicialmente vazio]
+
+# Ele será preenchido automaticamente pelo PHP com logs de envio
+# Exemplo de entrada após um envio:
+
+2025-05-29 12:34:56
+HTTP: 200
+Resposta: {"status":"success","id":"abc123xyz"}
+
+2025-05-29 15:19:27
+TESTE
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5E807A3E01C5F","dataEnvio":"2025-05-29 12:19:27"}}
+
+2025-05-29 13:09:20
+NOVO USUÁRIO
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE52B7A87CEDAEF","dataEnvio":"2025-05-29 13:09:20"}}
+
+2025-05-29 16:16:00
+TESTE
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5CD69F2EE90B1","dataEnvio":"2025-05-29 13:16:00"}}
+
+2025-05-29 13:41:18
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* teste
+📅 *Data:* 29/05/2025
+⏰ *Hora:* 15:31
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5A068CC4A6EF2","dataEnvio":"2025-05-29 13:41:18"}}
+
+2025-05-29 16:28:49
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* Jacy Cordeiro
+📅 *Data:* 22/05/2025
+⏰ *Hora:* 17:30
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE590BD420A815E","dataEnvio":"2025-05-29 16:28:49"}}
+
+2025-05-29 20:47:10
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* Dentista
+📅 *Data:* 29/05/2025
+⏰ *Hora:* 20:47
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE56734DB65A49F","dataEnvio":"2025-05-29 20:47:10"}}
+
+2025-05-29 22:02:56
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* cursos
+📅 *Data:* 29/05/2025
+⏰ *Hora:* 22:20
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE587B3452CAC57","dataEnvio":"2025-05-29 22:02:56"}}
+
+2025-05-29 23:56:01
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* medico
+📅 *Data:* 29/05/2025
+⏰ *Hora:* 23:00
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5E71325CA2F37","dataEnvio":"2025-05-29 23:56:01"}}
+
+2025-05-30 00:06:21
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* medico
+📅 *Data:* 29/05/2025
+⏰ *Hora:* 00:30
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5DF4D706E3456","dataEnvio":"2025-05-30 00:06:21"}}
+
+2025-05-30 00:46:20
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* teste
+📅 *Data:* 30/05/2025
+⏰ *Hora:* 00:52
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5963976A5E661","dataEnvio":"2025-05-30 00:46:20"}}
+
+2025-05-30 15:21:52
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* SALÃO
+📅 *Data:* 30/05/2025
+⏰ *Hora:* 16:00
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5FF1A068FD2F8","dataEnvio":"2025-05-30 15:21:52"}}
+
+2025-05-30 18:36:36
+NOVO USUÁRIO
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5365766E2277D","dataEnvio":"2025-05-30 18:36:36"}}
+
+2025-05-30 18:37:26
+NOVO USUÁRIO
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5CE791753E317","dataEnvio":"2025-05-30 18:37:26"}}
+
+2025-05-30 18:41:02
+ENVIO NOVA TAREFA
+Para: 5545999882111
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* ivani Cordeiro
+📝 *Descrição:* Aula
+📅 *Data:* 30/05/2025
+⏰ *Hora:* 18:40
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE52CEC5FC94C05","dataEnvio":"2025-05-30 18:41:02"}}
+
+2025-05-30 22:04:31
+NOVO USUÁRIO
+HTTP: 401
+Resposta: {"status":400,"message":"O n\u00famero n\u00e3o existe","data":{"idMensagem":false,"dataEnvio":"2025-05-30 22:04:31"}}
+
+2025-05-30 22:27:22
+NOVO USUÁRIO
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE52973A563030E","dataEnvio":"2025-05-30 22:27:22"}}
+
+2025-05-30 22:29:02
+ENVIO NOVA TAREFA
+Para: 5545999882111
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* ivani Cordeiro
+📝 *Descrição:* Aula
+📅 *Data:* 30/05/2025
+⏰ *Hora:* 22:28
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5AA550ACB96BF","dataEnvio":"2025-05-30 22:29:02"}}
+
+2025-05-31 00:23:28
+RECUPERAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE555EAEE3267CD","dataEnvio":"2025-05-31 00:23:28"}}
+
+2025-05-31 00:47:14
+NOVO USUÁRIO
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5BB87E43C6E3B","dataEnvio":"2025-05-31 00:47:14"}}
+
+2025-05-31 01:07:54
+NOVO USUÁRIO
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5C53C7E665C09","dataEnvio":"2025-05-31 01:07:54"}}
+
+2025-05-31 07:34:11
+NOVO USUÁRIO
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE598BE4562A1BE","dataEnvio":"2025-05-31 07:34:11"}}
+
+2025-05-31 11:13:50
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* Salão
+📅 *Data:* 31/05/2025
+⏰ *Hora:* 11:50
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE552FDD52498E2","dataEnvio":"2025-05-31 11:13:50"}}
+
+2025-05-31 12:01:47
+RECUPERAR SENHA
+HTTP: 403
+Resposta: {"status":403,"message":"Usuario n\u00e3o encontrado ou plano expirado!"}
+
+2025-05-31 12:05:00
+RECUPERAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5C54F02FB11D3","dataEnvio":"2025-05-31 12:05:00"}}
+
+2025-05-31 12:22:56
+RECUPERAR SENHA
+HTTP: 403
+Resposta: {"status":403,"message":"Usuario n\u00e3o encontrado ou plano expirado!"}
+
+2025-05-31 12:31:51
+RECUPERAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5FAE3247B0B5C","dataEnvio":"2025-05-31 12:31:51"}}
+
+2025-05-31 12:35:21
+RECUPERAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5044B17E043F3","dataEnvio":"2025-05-31 12:35:21"}}
+
+2025-05-31 12:38:37
+RECUPERAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE53E1161AEFE1E","dataEnvio":"2025-05-31 12:38:37"}}
+
+2025-05-31 12:47:09
+RECUPERAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE583FFA6D32E97","dataEnvio":"2025-05-31 12:47:09"}}
+
+2025-05-31 17:19:01
+ENVIO NOVA TAREFA
+Para: 5545991057888
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jose Gilberto
+📝 *Descrição:* Cachear cabelo Celia
+📅 *Data:* 31/05/2025
+⏰ *Hora:* 18:00
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE50F9D8519A6E7","dataEnvio":"2025-05-31 17:19:01"}}
+
+2025-05-31 20:35:49
+RESETAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5E24D9670A5BF","dataEnvio":"2025-05-31 20:35:49"}}
+
+2025-05-31 21:14:50
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* teste
+📅 *Data:* 31/05/2025
+⏰ *Hora:* 21:20
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE59A2BF2E1E035","dataEnvio":"2025-05-31 21:14:50"}}
+
+2025-05-31 21:15:46
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* dentista
+📅 *Data:* 01/06/2025
+⏰ *Hora:* 09:20
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5410748B01A6E","dataEnvio":"2025-05-31 21:15:46"}}
+
+2025-05-31 21:25:15
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* teste
+📅 *Data:* 31/05/2025
+⏰ *Hora:* 21:30
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE56D43F716D2A1","dataEnvio":"2025-05-31 21:25:15"}}
+
+2025-05-31 21:25:40
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* teste 2
+📅 *Data:* 31/05/2025
+⏰ *Hora:* 21:31
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5081845C4638C","dataEnvio":"2025-05-31 21:25:40"}}
+
+2025-05-31 23:06:53
+ENVIO NOVO USU�0�9RIO
+Para: 5518981618513
+Mensagem:
+�9�3 Boa noite, *Marcos*! �9�9
+
+�0�4 *Bem-vindo ao Sistema de Tarefas!*
+
+�9�4 *Nome:* Marcos
+�9�7 *Senha:* 1234
+
+�9�4 *Acesse seu painel:*
+�9�7 https://tarefa.jc.inf.br
+
+�9�6 *Suporte:* (45) 99988-2100
+_Estamos aqui para ajudar voc�� a gerenciar suas tarefas com efici��ncia!_
+
+�0�6 *Equipe Sistema de Tarefas*
+Resposta: {"status":400,"message":"O n\u00famero n\u00e3o existe","data":{"idMensagem":false,"dataEnvio":"2025-05-31 23:06:53"}}
+
+2025-05-31 23:18:12
+ENVIO NOVO USU�0�9RIO
+Para: 5521990099080
+Mensagem:
+�9�3 Boa noite, *Jennefer de Oliveira*! �9�9
+
+�0�4 *Bem-vindo ao Sistema de Tarefas!*
+
+�9�4 *Nome:* Jennefer de Oliveira
+�9�7 *Senha:* 1234
+
+�9�4 *Acesse seu painel:*
+�9�7 https://tarefa.jc.inf.br
+
+�9�6 *Suporte:* (45) 99988-2100
+_Estamos aqui para ajudar voc�� a gerenciar suas tarefas com efici��ncia!_
+
+�0�6 *Equipe Sistema de Tarefas*
+Resposta: <!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="shortcut icon" type="image/x-icon" href="https://chatbot.menuia.com/uploads/favicon.png">
+        <title>Server Error</title>
+        <link rel="stylesheet" href="https://chatbot.menuia.com/assets/frontend/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://chatbot.menuia.com/assets/frontend/css/style.css?v=1.0">
+        <!-- Styles -->
+        
+    </head>
+    <body class="grey-bg">
+        <main>
+      <!-- error area start -->
+      <div class="breadcrumb__area breadcrumb-height p-relative grey-bg mt-8-per"
+         data-background="https://chatbot.menuia.com/assets/frontend/img/breadcrumb/breadcrumb.jpg">        
+         <div class="container">
+            <div class="row">
+               <div class="col-xxl-12">
+                  <div class="breadcrumb__content text-center">
+                     <h3 class="breadcrumb__title">500</h3>
+                     <div class="breadcrumb__list">
+                        <span>Server Error</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- error area end -->      
+   </main>
+   <script src="https://chatbot.menuia.com/assets/frontend/js/jquery.js"></script>
+   <script src="https://chatbot.menuia.com/assets/frontend/js/bootstrap.bundle.min.js"></script>
+   <script src="https://chatbot.menuia.com/assets/frontend/js/magnific-popup.js"></script>
+   <script src="https://chatbot.menuia.com/assets/frontend/js/wow.js"></script>
+   <script src="https://chatbot.menuia.com/assets/frontend/js/meanmenu.js"></script>
+   <script src="https://chatbot.menuia.com/assets/frontend/js/main.js"></script>
+    </body>
+</html>
+
+
+2025-05-31 23:25:19
+NOVO USU�0�9RIO
+HTTP: 500
+Resposta: <!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="shortcut icon" type="image/x-icon" href="https://chatbot.menuia.com/uploads/favicon.png">
+        <title>Server Error</title>
+        <link rel="stylesheet" href="https://chatbot.menuia.com/assets/frontend/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://chatbot.menuia.com/assets/frontend/css/style.css?v=1.0">
+        <!-- Styles -->
+        
+    </head>
+    <body class="grey-bg">
+        <main>
+      <!-- error area start -->
+      <div class="breadcrumb__area breadcrumb-height p-relative grey-bg mt-8-per"
+         data-background="https://chatbot.menuia.com/assets/frontend/img/breadcrumb/breadcrumb.jpg">        
+         <div class="container">
+            <div class="row">
+               <div class="col-xxl-12">
+                  <div class="breadcrumb__content text-center">
+                     <h3 class="breadcrumb__title">500</h3>
+                     <div class="breadcrumb__list">
+                        <span>Server Error</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- error area end -->      
+   </main>
+   <script src="https://chatbot.menuia.com/assets/frontend/js/jquery.js"></script>
+   <script src="https://chatbot.menuia.com/assets/frontend/js/bootstrap.bundle.min.js"></script>
+   <script src="https://chatbot.menuia.com/assets/frontend/js/magnific-popup.js"></script>
+   <script src="https://chatbot.menuia.com/assets/frontend/js/wow.js"></script>
+   <script src="https://chatbot.menuia.com/assets/frontend/js/meanmenu.js"></script>
+   <script src="https://chatbot.menuia.com/assets/frontend/js/main.js"></script>
+    </body>
+</html>
+
+
+2025-05-31 23:36:13
+NOVO USU�0�9RIO
+HTTP: 401
+Resposta: {"status":400,"message":"O n\u00famero n\u00e3o existe","data":{"idMensagem":false,"dataEnvio":"2025-05-31 23:36:13"}}
+
+2025-06-01 00:08:43
+NOVO USU�0�9RIO
+Para: 5581975040503
+Mensagem:
+�9�3 Boa noite, *Diogo*! �9�9
+
+�0�4 *Bem-vindo ao Sistema de Tarefas!*
+
+�9�4 *Nome:* Diogo
+�9�7 *Senha:* 1234
+
+�9�4 *Acesse seu painel:*
+�9�7 https://tarefa.jc.inf.br
+
+�9�6 *Suporte:* (45) 99988-2100
+_Estamos aqui para ajudar voc��!_
+
+�0�6 *Equipe Sistema de Tarefas*
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5A879A54CCE95","dataEnvio":"2025-06-01 00:08:43"}}
+
+2025-06-01 00:25:10
+RESETAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE53A5BA53BC9FC","dataEnvio":"2025-06-01 00:25:10"}}
+
+2025-06-01 00:33:07
+RESETAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5C6C77093350A","dataEnvio":"2025-06-01 00:33:07"}}
+
+2025-06-01 00:34:03
+RESETAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE534FCAD97DF84","dataEnvio":"2025-06-01 00:34:03"}}
+
+2025-06-01 00:34:45
+RESETAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5FF9746D65A8A","dataEnvio":"2025-06-01 00:34:45"}}
+
+2025-06-01 00:34:54
+RESETAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE54F51C93EA2F2","dataEnvio":"2025-06-01 00:34:54"}}
+
+2025-06-01 00:35:02
+RESETAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5D9452DE49C6E","dataEnvio":"2025-06-01 00:35:02"}}
+
+2025-06-01 00:35:11
+RESETAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5B4DBF27612AC","dataEnvio":"2025-06-01 00:35:11"}}
+
+2025-06-01 00:37:56
+RESETAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5B8CDB6AED99D","dataEnvio":"2025-06-01 00:37:56"}}
+
+2025-06-01 00:40:37
+NOVO USU�0�9RIO
+Nome: Alexandre
+Telefone: 5545999311082
+HTTP Status: 200
+Resposta API: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5CC1D0D9C0173","dataEnvio":"2025-06-01 00:40:37"}}
+
+2025-06-01 00:47:44
+NOVO USU�0�9RIO
+Nome: Daros
+Telefone: 5545999616230
+HTTP Status: 200
+Resposta API: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE50AC3131FFCB4","dataEnvio":"2025-06-01 00:47:44"}}
+
+2025-06-01 00:50:30
+RESETAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5D75CD4EC1F53","dataEnvio":"2025-06-01 00:50:30"}}
+
+2025-06-01 00:50:37
+RESETAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE59F4A7F588C72","dataEnvio":"2025-06-01 00:50:37"}}
+
+2025-06-03 13:14:27
+ENVIO NOVA TAREFA
+Para: 5545999843764
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Cleyton
+📝 *Descrição:* Lavar prato
+📅 *Data:* 20/06/2025
+⏰ *Hora:* 21:14
+
+Resposta: {"status":400,"message":"O n\u00famero n\u00e3o existe","data":{"idMensagem":false,"dataEnvio":"2025-06-03 13:14:27"}}
+
+2025-06-03 13:17:37
+ENVIO NOVA TAREFA
+Para: 5545999181603
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* João Vitor de Souza da Silva
+📝 *Descrição:* Teste
+📅 *Data:* 03/06/2025
+⏰ *Hora:* 13:17
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE507A5BAC6676F","dataEnvio":"2025-06-03 13:17:37"}}
+
+2025-06-03 14:05:45
+RESETAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5711BE6B3729C","dataEnvio":"2025-06-03 14:05:45"}}
+
+2025-06-03 14:06:50
+RESETAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5B915EA6EEF9E","dataEnvio":"2025-06-03 14:06:50"}}
+
+2025-06-03 14:22:16
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* Apresentação Barberbot
+📅 *Data:* 03/06/2025
+⏰ *Hora:* 15:00
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE55562D5EDB7CE","dataEnvio":"2025-06-03 14:22:16"}}
+
+2025-06-03 14:31:14
+RESETAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5A981C0162D52","dataEnvio":"2025-06-03 14:31:14"}}
+
+2025-06-03 15:50:16
+ENVIO NOVO USU�0�9RIO
+Para: 5545999181603
+Mensagem:
+*�9�6 Login - Sistema de Tarefas*
+Otimize a efici��ncia da sua gest�0�0o com nossa solu�0�4�0�0o inovadora!
+�9�4 https://tarefa.jc.inf.br
+
+�9�4�1�5 Boa tarde, *João Vitor de Souza da Silva*! �9�9
+
+�0�4 *Bem-vindo ao Sistema de Tarefas!*
+
+�9�4 *Nome:* João Vitor de Souza da Silva
+�9�7 *Senha:* `1234`
+
+�9�1 *Acesse seu painel:*
+�9�7 https://tarefa.jc.inf.br
+
+�9�6 *Suporte:* (45) 99988-2100
+_Nossa equipe est�� pronta para ajudar voc�� a gerenciar suas tarefas com efici��ncia!_
+
+�0�6 *Equipe Sistema de Tarefas*
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5F32D8AF093FE","dataEnvio":"2025-06-03 15:50:16"}}
+
+2025-06-03 15:52:36
+ENVIO NOVO USU�0�9RIO
+Para: 5545999730633
+Mensagem:
+*�9�6 Login - Sistema de Tarefas*
+Otimize a efici��ncia da sua gest�0�0o com nossa solu�0�4�0�0o inovadora!
+�9�4 https://tarefa.jc.inf.br
+
+�9�4�1�5 Boa tarde, *Marcio*! �9�9
+
+�0�4 *Bem-vindo ao Sistema de Tarefas!*
+
+�9�4 *Nome:* Marcio
+�9�7 *Senha:* `1234`
+
+�9�1 *Acesse seu painel:*
+�9�7 https://tarefa.jc.inf.br
+
+�9�6 *Suporte:* (45) 99988-2100
+_Nossa equipe est�� pronta para ajudar voc�� a gerenciar suas tarefas com efici��ncia!_
+
+�0�6 *Equipe Sistema de Tarefas*
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE51F0C8A3DD98B","dataEnvio":"2025-06-03 15:52:36"}}
+
+2025-06-03 16:05:39
+RESETAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5738FECDF1626","dataEnvio":"2025-06-03 16:05:39"}}
+
+2025-06-03 16:10:33
+ENVIO NOVO USU�0�9RIO
+Para: 5545999876631
+Mensagem:
+
+Resposta: {"status":401,"message":"O campo MESSAGE é obrigatório."}
+
+2025-06-03 16:12:08
+ENVIO NOVA TAREFA
+Para: 5545999876631
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Marcio Ezidio Romero
+📝 *Descrição:* Teste
+📅 *Data:* 03/06/2025
+⏰ *Hora:* 18:00
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE507B93EA37FB4","dataEnvio":"2025-06-03 16:12:08"}}
+
+2025-06-03 16:17:05
+ENVIO NOVO USU�0�9RIO
+Para: 5511946148836
+Mensagem:
+
+Resposta: {"status":401,"message":"O campo MESSAGE é obrigatório."}
+
+2025-06-03 16:33:27
+ENVIO NOVO USU�0�9RIO
+Para: 5545999882111
+Mensagem:
+
+Resposta: {"status":401,"message":"O campo MESSAGE é obrigatório."}
+-----------------------------------------------------
+
+2025-06-03 16:44:59
+ENVIO NOVA TAREFA
+Para: 5545999876631
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Marcio Ezidio Romero
+📝 *Descrição:* QUARTA-FEIRA - Estuda Théo Borges
+📅 *Data:* 04/06/2025
+⏰ *Hora:* 12:00
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5A04B3DA1F762","dataEnvio":"2025-06-03 16:44:59"}}
+
+2025-06-08 17:41:07
+ENVIO NOVA TAREFA
+Para: 5545999552140
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Crediane Siqueira
+📝 *Descrição:* Apresentação do Trabalho de Segunda
+📅 *Data:* 09/06/2025
+⏰ *Hora:* 19:00
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5DBF61765A32B","dataEnvio":"2025-06-08 17:41:07"}}
+
+2025-06-08 17:42:05
+ENVIO NOVA TAREFA
+Para: 5545999552140
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Crediane Siqueira
+📝 *Descrição:* Fazer o trabalho de IA
+📅 *Data:* 10/06/2025
+⏰ *Hora:* 19:00
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5DD31C14B0052","dataEnvio":"2025-06-08 17:42:05"}}
+
+2025-06-08 17:42:06
+ENVIO NOVA TAREFA
+Para: 5545999552140
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Crediane Siqueira
+📝 *Descrição:* Fazer o trabalho de IA
+📅 *Data:* 10/06/2025
+⏰ *Hora:* 19:00
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5A6EC2E5C0018","dataEnvio":"2025-06-08 17:42:06"}}
+
+2025-06-08 17:42:07
+ENVIO NOVA TAREFA
+Para: 5545999552140
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Crediane Siqueira
+📝 *Descrição:* Fazer o trabalho de IA
+📅 *Data:* 10/06/2025
+⏰ *Hora:* 19:00
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE552D2547A163D","dataEnvio":"2025-06-08 17:42:07"}}
+
+2025-06-08 17:42:07
+ENVIO NOVA TAREFA
+Para: 5545999552140
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Crediane Siqueira
+📝 *Descrição:* Fazer o trabalho de IA
+📅 *Data:* 10/06/2025
+⏰ *Hora:* 19:00
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5D9665D32A323","dataEnvio":"2025-06-08 17:42:07"}}
+
+2025-06-08 18:00:36
+ENVIO NOVA TAREFA
+Para: 5545999552140
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Crediane Siqueira
+📝 *Descrição:* Estudar para o trabalho
+📅 *Data:* 08/06/2025
+⏰ *Hora:* 18:10
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE590EE925E79CE","dataEnvio":"2025-06-08 18:00:36"}}
+
+2025-06-08 18:09:28
+ENVIO NOVA TAREFA
+Para: 5545999552140
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Crediane Siqueira
+📝 *Descrição:* Reestruturar o trabalho de segunda
+📅 *Data:* 08/06/2025
+⏰ *Hora:* 18:10
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5740C404E3A81","dataEnvio":"2025-06-08 18:09:28"}}
+
+2025-06-08 18:14:17
+ENVIO NOVA TAREFA
+Para: 5545999552140
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Crediane Siqueira
+📝 *Descrição:* Fazer o trabalho de banco de dados
+📅 *Data:* 11/06/2025
+⏰ *Hora:* 08:00
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5ED6D75638E79","dataEnvio":"2025-06-08 18:14:17"}}
+
+2025-06-08 18:43:40
+ENVIO NOVA TAREFA
+Para: 5545999843764
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Cleyton
+📝 *Descrição:* Levar roupa
+📅 *Data:* 10/06/2025
+⏰ *Hora:* 18:43
+
+Resposta: {"status":400,"message":"O n\u00famero n\u00e3o existe","data":{"idMensagem":false,"dataEnvio":"2025-06-08 18:43:40"}}
+
+2025-06-08 19:22:48
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* teste
+📅 *Data:* 08/06/2025
+⏰ *Hora:* 19:30
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE55182441D76BE","dataEnvio":"2025-06-08 19:22:48"}}
+
+2025-06-08 21:58:36
+RESETAR SENHA
+HTTP: 200
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE56C4595AB110F","dataEnvio":"2025-06-08 21:58:36"}}
+
+2025-06-08 22:19:17
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* Odontomil
+📅 *Data:* 09/06/2025
+⏰ *Hora:* 16:30
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5C584ADF5C534","dataEnvio":"2025-06-08 22:19:17"}}
+
+2025-06-08 22:19:17
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* Odontomil
+📅 *Data:* 09/06/2025
+⏰ *Hora:* 16:30
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5D6BA5249E9B1","dataEnvio":"2025-06-08 22:19:17"}}
+
+2025-06-08 22:19:18
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* Odontomil
+📅 *Data:* 09/06/2025
+⏰ *Hora:* 16:30
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE598EB8EC4CF66","dataEnvio":"2025-06-08 22:19:18"}}
+
+2025-06-09 20:12:02
+ENVIO NOVA TAREFA
+Para: 5545998453928
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Igor
+📝 *Descrição:* Tedte
+📅 *Data:* 09/06/2025
+⏰ *Hora:* 20:16
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE563267B754048","dataEnvio":"2025-06-09 20:12:02"}}
+
+2025-06-09 20:12:03
+ENVIO NOVA TAREFA
+Para: 5545998453928
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Igor
+📝 *Descrição:* Tedte
+📅 *Data:* 09/06/2025
+⏰ *Hora:* 20:16
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5D6A366E59BB5","dataEnvio":"2025-06-09 20:12:03"}}
+
+2025-06-09 20:12:04
+ENVIO NOVA TAREFA
+Para: 5545998453928
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Igor
+📝 *Descrição:* Tedte
+📅 *Data:* 09/06/2025
+⏰ *Hora:* 20:16
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE542F711E41D8C","dataEnvio":"2025-06-09 20:12:04"}}
+
+2025-06-09 20:12:04
+ENVIO NOVA TAREFA
+Para: 5545998453928
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Igor
+📝 *Descrição:* Tedte
+📅 *Data:* 09/06/2025
+⏰ *Hora:* 20:16
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE585893B57EFAE","dataEnvio":"2025-06-09 20:12:04"}}
+
+2025-06-09 20:12:05
+ENVIO NOVA TAREFA
+Para: 5545998453928
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Igor
+📝 *Descrição:* Tedte
+📅 *Data:* 09/06/2025
+⏰ *Hora:* 20:16
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE56E7649EE6070","dataEnvio":"2025-06-09 20:12:05"}}
+
+2025-06-09 20:36:56
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* teste
+📅 *Data:* 09/06/2025
+⏰ *Hora:* 20:42
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5EB94B5534CCD","dataEnvio":"2025-06-09 20:36:56"}}
+
+2025-06-09 20:44:50
+ENVIO NOVA TAREFA
+Para: 5545999882100
+Mensagem:
+✅ *Tarefa cadastrada com sucesso!*
+
+👤 *Usuário:* Jacy Cordeiro
+📝 *Descrição:* teste
+📅 *Data:* 09/06/2025
+⏰ *Hora:* 20:42
+
+Resposta: {"status":200,"message":"Mensagem enviada com sucesso.","data":{"idMensagem":"BAE5666A9D0A33A2","dataEnvio":"2025-06-09 20:44:50"}}
+

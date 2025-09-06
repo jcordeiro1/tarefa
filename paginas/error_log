@@ -1,0 +1,44 @@
+[31-May-2025 19:29:57 UTC] PHP Warning:  require(../../conexao.php): Failed to open stream: No such file or directory in /home/jcinf/tarefa.jc.inf.br/paginas/admin.php on line 3
+[31-May-2025 19:29:57 UTC] PHP Warning:  require(../../conexao.php): Failed to open stream: No such file or directory in /home/jcinf/tarefa.jc.inf.br/paginas/admin.php on line 3
+[31-May-2025 19:29:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../conexao.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/jcinf/tarefa.jc.inf.br/paginas/admin.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/jcinf/tarefa.jc.inf.br/paginas/admin.php on line 3
+[31-May-2025 19:41:21 UTC] PHP Warning:  require(../../conexao.php): Failed to open stream: No such file or directory in /home/jcinf/tarefa.jc.inf.br/paginas/admin.php on line 3
+[31-May-2025 19:41:21 UTC] PHP Warning:  require(../../conexao.php): Failed to open stream: No such file or directory in /home/jcinf/tarefa.jc.inf.br/paginas/admin.php on line 3
+[31-May-2025 19:41:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../conexao.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/jcinf/tarefa.jc.inf.br/paginas/admin.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/jcinf/tarefa.jc.inf.br/paginas/admin.php on line 3
+[31-May-2025 23:09:50 UTC] PHP Warning:  require(../../conexao.php): Failed to open stream: No such file or directory in /home/jcinf/tarefa.jc.inf.br/paginas/admin.php on line 9
+[31-May-2025 23:09:50 UTC] PHP Warning:  require(../../conexao.php): Failed to open stream: No such file or directory in /home/jcinf/tarefa.jc.inf.br/paginas/admin.php on line 9
+[31-May-2025 23:09:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../conexao.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/jcinf/tarefa.jc.inf.br/paginas/admin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/jcinf/tarefa.jc.inf.br/paginas/admin.php on line 9
+[31-May-2025 22:54:56 America/Sao_Paulo] PHP Warning:  mb_convert_encoding(): Unable to detect character encoding in /home/jcinf/tarefa.jc.inf.br/paginas/cadastrar_usuario.php on line 62
+[31-May-2025 23:24:52 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '21990099080' for key 'usuarios.telefone' in /home/jcinf/tarefa.jc.inf.br/paginas/cadastrar_usuario.php:22
+Stack trace:
+#0 /home/jcinf/tarefa.jc.inf.br/paginas/cadastrar_usuario.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/jcinf/tarefa.jc.inf.br/paginas/cadastrar_usuario.php on line 22
+[03-Jun-2025 14:01:01 America/Sao_Paulo] PHP Warning:  mb_convert_encoding(): Unable to detect character encoding in /home/jcinf/tarefa.jc.inf.br/paginas/cadastrar_usuario.php on line 66
+[03-Jun-2025 16:10:33 America/Sao_Paulo] PHP Warning:  mb_convert_encoding(): Unable to detect character encoding in /home/jcinf/tarefa.jc.inf.br/paginas/cadastrar_usuario.php on line 65
+[03-Jun-2025 16:17:05 America/Sao_Paulo] PHP Warning:  mb_convert_encoding(): Unable to detect character encoding in /home/jcinf/tarefa.jc.inf.br/paginas/cadastrar_usuario.php on line 65
+[03-Jun-2025 16:33:27 America/Sao_Paulo] PHP Warning:  mb_convert_encoding(): Unable to detect character encoding in /home/jcinf/tarefa.jc.inf.br/paginas/cadastrar_usuario.php on line 64
+[03-Jun-2025 19:36:31 UTC] PHP Warning:  require(conexao.php): Failed to open stream: No such file or directory in /home/jcinf/tarefa.jc.inf.br/paginas/cadastrar_usuario.php on line 2
+[03-Jun-2025 19:36:31 UTC] PHP Warning:  require(conexao.php): Failed to open stream: No such file or directory in /home/jcinf/tarefa.jc.inf.br/paginas/cadastrar_usuario.php on line 2
+[03-Jun-2025 19:36:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'conexao.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/jcinf/tarefa.jc.inf.br/paginas/cadastrar_usuario.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/jcinf/tarefa.jc.inf.br/paginas/cadastrar_usuario.php on line 2
+[03-Jun-2025 16:44:24 America/Sao_Paulo] PHP Warning:  Undefined array key "usuario_id" in /home/jcinf/tarefa.jc.inf.br/paginas/grafico_tarefas.php on line 4
+[03-Jun-2025 16:44:24 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND status = 'Agendada'' at line 1 in /home/jcinf/tarefa.jc.inf.br/paginas/grafico_tarefas.php:6
+Stack trace:
+#0 /home/jcinf/tarefa.jc.inf.br/paginas/grafico_tarefas.php(6): PDO->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in /home/jcinf/tarefa.jc.inf.br/paginas/grafico_tarefas.php on line 6
+[08-Jun-2025 19:41:27 America/Sao_Paulo] PHP Warning:  Undefined variable $mensagem in /home/jcinf/tarefa.jc.inf.br/paginas/cadastrar_usuario.php on line 51
+[09-Jun-2025 20:09:23 America/Sao_Paulo] PHP Warning:  Undefined variable $mensagem in /home/jcinf/tarefa.jc.inf.br/paginas/cadastrar_usuario.php on line 51
+[09-Jun-2025 20:32:54 America/Sao_Paulo] PHP Warning:  Undefined variable $mensagem in /home/jcinf/tarefa.jc.inf.br/paginas/cadastrar_usuario.php on line 51
+[09-Jun-2025 20:47:35 America/Sao_Paulo] PHP Warning:  Undefined variable $mensagem in /home/jcinf/tarefa.jc.inf.br/paginas/cadastrar_usuario.php on line 51

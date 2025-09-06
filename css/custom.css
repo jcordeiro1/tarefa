@@ -1,0 +1,82 @@
+/* Fundo geral */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar moderna */
+.navbar {
+    background: linear-gradient(90deg, #007bff 0%, #0056b3 100%);
+    color: white;
+}
+.navbar .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.navbar .btn {
+    font-size: 0.9rem;
+}
+
+/* Botões */
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 6px 16px;
+}
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Modal mais elegante */
+.modal-content {
+    border-radius: 10px;
+}
+.modal-header {
+    background-color: #007bff;
+    color: white;
+    border-bottom: 1px solid #0056b3;
+}
+.modal-title {
+    font-weight: 600;
+}
+
+/* Tabelas */
+.table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.table thead th {
+    background-color: #e9ecef;
+    font-weight: 600;
+}
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Badges Status */
+.badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+}
+
+/* Responsivo para Mobile */
+@media (max-width: 768px) {
+    .table {
+        font-size: 0.9rem;
+    }
+    .navbar .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
